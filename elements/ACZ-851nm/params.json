@@ -1,0 +1,140 @@
+{
+    "add_is_visible": true,
+    "add_large_file_upload_properties": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 15,
+        "width": 15
+    },
+    "display": "Upload to Databank",
+    "events": {
+        "ACg": {
+            "caption": "fileSelected",
+            "name": "file_selected"
+        }
+    },
+    "fields": {
+        "ABx": {
+            "caption": "Dropzone Element ID",
+            "editor": "DynamicValue",
+            "name": "id",
+            "optional": true,
+            "rank": 0,
+            "value": "text"
+        },
+        "ABy": {
+            "caption": "file_types",
+            "editor": "DynamicValue",
+            "name": "file_types",
+            "optional": true,
+            "rank": 1,
+            "value": "text"
+        },
+        "ACA": {
+            "caption": "max_file_size",
+            "editor": "DynamicValue",
+            "name": "max_file_size",
+            "optional": true,
+            "rank": 2,
+            "value": "number"
+        },
+        "ACB": {
+            "caption": "Base Url",
+            "editor": "DynamicValue",
+            "name": "base_url",
+            "rank": 3,
+            "value": "text"
+        },
+        "ACC": {
+            "caption": "auth_token",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "auth_token",
+            "rank": 4,
+            "value": "text"
+        }
+    },
+    "has_reset_fn": true,
+    "icon": "ion-android-checkbox-blank",
+    "states": {
+        "ACO": {
+            "caption": "status",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": false,
+            "name": "status",
+            "value": "text"
+        },
+        "ACS": {
+            "caption": "error_message",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "error_message",
+            "value": "text"
+        },
+        "ACT": {
+            "caption": "selected_files_count",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": false,
+            "name": "selected_files_count",
+            "value": "number"
+        },
+        "ACV": {
+            "caption": "uploaded_files_count",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "uploaded_files_count",
+            "value": "number"
+        },
+        "ACW": {
+            "caption": "successful_uploads",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "successful_uploads",
+            "value": "text"
+        },
+        "ACX": {
+            "caption": "failed_uploads",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "failed_uploads",
+            "value": "text"
+        },
+        "ACh": {
+            "caption": "selected_files",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "selected_files",
+            "value": "file"
+        },
+        "ACk": {
+            "caption": "file_names",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "file_names",
+            "value": "text"
+        },
+        "ACl": {
+            "caption": "file_types",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "file_types",
+            "value": "text"
+        }
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 20,
+        "width": 20
+    },
+    "display": "qr",
+    "events": {
+        "ACv": {
+            "caption": "generate",
+            "name": "qr_code_generated"
+        }
+    },
+    "fields": {
+        "ACs": {
+            "caption": "logo",
+            "editor": "DynamicValue",
+            "name": "logo",
+            "rank": 0,
+            "value": "image"
+        },
+        "ACt": {
+            "caption": "link",
+            "editor": "DynamicValue",
+            "name": "link",
+            "rank": 1,
+            "value": "text"
+        }
+    },
+    "icon": "ion-android-checkbox-blank",
+    "platform_type": "web",
+    "states": {
+        "ACu": {
+            "caption": "qr_code_image",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "qr_code_image",
+            "value": "image"
+        },
+        "ACz": {
+            "caption": "qr_code_image_url",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "qr_code_image_url",
+            "value": "text"
+        }
+    }
+}

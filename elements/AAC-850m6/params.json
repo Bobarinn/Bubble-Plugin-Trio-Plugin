@@ -1,0 +1,257 @@
+{
+    "add_is_visible": true,
+    "add_large_file_upload_properties": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 15,
+        "width": 15
+    },
+    "display": "Files",
+    "events": {
+        "AAS": {
+            "caption": "Files Saved",
+            "name": "saved"
+        },
+        "AAT": {
+            "caption": "Uploaded",
+            "name": "uploaded"
+        }
+    },
+    "fields": {
+        "AAD": {
+            "caption": "Dropzone Element ID",
+            "editor": "DynamicValue",
+            "name": "id",
+            "optional": true,
+            "rank": 0,
+            "value": "text"
+        },
+        "AAE": {
+            "caption": "Accepted Types",
+            "editor": "DynamicValue",
+            "name": "type",
+            "optional": true,
+            "rank": 1,
+            "value": "text"
+        },
+        "AAF": {
+            "caption": "Size Max",
+            "editor": "DynamicValue",
+            "name": "size",
+            "optional": true,
+            "rank": 2,
+            "value": "number"
+        },
+        "AAG": {
+            "caption": "Files Limit",
+            "editor": "DynamicValue",
+            "name": "max",
+            "optional": true,
+            "rank": 3,
+            "value": "number"
+        },
+        "AAg": {
+            "caption": "region",
+            "editor": "DynamicValue",
+            "name": "region",
+            "rank": 4,
+            "value": "text"
+        },
+        "AAh": {
+            "caption": "accessKeyId",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "accesskeyid",
+            "rank": 5,
+            "value": "text"
+        },
+        "AAi": {
+            "caption": "secretAccessKey",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "secretaccesskey",
+            "rank": 6,
+            "value": "text"
+        },
+        "AAj": {
+            "caption": "sessionToken",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "sessiontoken",
+            "rank": 7,
+            "value": "text"
+        },
+        "AAk": {
+            "caption": "bucketName",
+            "editor": "DynamicValue",
+            "name": "bucketname",
+            "rank": 8,
+            "value": "text"
+        },
+        "AAl": {
+            "caption": "userId",
+            "editor": "DynamicValue",
+            "name": "userid",
+            "rank": 9,
+            "value": "text"
+        },
+        "AAm": {
+            "caption": "Unix Timestamp",
+            "editor": "DynamicValue",
+            "name": "timestamp",
+            "rank": 10,
+            "value": "number"
+        }
+    },
+    "icon": "ion-android-checkbox-blank",
+    "states": {
+        "AAI": {
+            "caption": "Files Preview (Image Base64)",
+            "doc": "List of URLs data64",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "preview",
+            "value": "text"
+        },
+        "AAJ": {
+            "caption": "bubble",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "bubble",
+            "value": "file"
+        },
+        "AAK": {
+            "caption": "Uploaded Files Names",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "names",
+            "value": "text"
+        },
+        "AAL": {
+            "caption": "Error - Which files exceeded size",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "size",
+            "value": "text"
+        },
+        "AAM": {
+            "caption": "Error - Which files exceeded size and type",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "size_type",
+            "value": "text"
+        },
+        "AAN": {
+            "caption": "Error - Which files were not of the supported extension",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "type",
+            "value": "text"
+        },
+        "AAO": {
+            "caption": "Error - Which files exceeded the maximum amount of files allowed",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "limit",
+            "value": "text"
+        },
+        "AAP": {
+            "caption": "File in Dropzone",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": false,
+            "name": "dragover",
+            "value": "boolean"
+        },
+        "AAQ": {
+            "caption": "Upload Complete",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "uploaded",
+            "value": "boolean"
+        },
+        "AAR": {
+            "caption": "Size of the uploaded file (in Kbytes)",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "after_size",
+            "value": "number"
+        },
+        "AAn": {
+            "caption": "upload_error",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "upload_error",
+            "value": "text"
+        },
+        "AAo": {
+            "caption": "files",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "files",
+            "value": "text"
+        },
+        "AAp": {
+            "caption": "s3_urls",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "s3_urls",
+            "value": "text"
+        },
+        "AAq": {
+            "caption": "uploaded_files_count",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "uploaded_files_count",
+            "value": "number"
+        },
+        "AAr": {
+            "caption": "error",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "error",
+            "value": "text"
+        },
+        "ABc": {
+            "caption": "selected_files_count",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "selected_files_count",
+            "value": "number"
+        },
+        "ABd": {
+            "caption": "final_files_count",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "final_files_count",
+            "value": "number"
+        }
+    }
+}

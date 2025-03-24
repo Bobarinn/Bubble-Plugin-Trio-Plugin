@@ -1,0 +1,20 @@
+{
+    "caption": "Save",
+    "fields": {
+        "AAd": {
+            "caption": "name",
+            "editor": "DynamicValue",
+            "name": "name",
+            "optional": true,
+            "rank": 1,
+            "value": "text"
+        },
+        "AAe": {
+            "caption": "insertRandomString",
+            "default_val": true,
+            "editor": "Checkbox",
+            "name": "insertrandomstring",
+            "rank": 0
+        }
+    }
+}

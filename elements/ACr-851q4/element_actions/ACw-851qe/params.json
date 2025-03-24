@@ -1,0 +1,19 @@
+{
+    "caption": "Generate",
+    "fields": {
+        "ACx": {
+            "caption": "link",
+            "editor": "DynamicValue",
+            "name": "link",
+            "rank": 0,
+            "value": "text"
+        },
+        "ACy": {
+            "caption": "logo",
+            "editor": "DynamicValue",
+            "name": "logo",
+            "rank": 1,
+            "value": "image"
+        }
+    }
+}

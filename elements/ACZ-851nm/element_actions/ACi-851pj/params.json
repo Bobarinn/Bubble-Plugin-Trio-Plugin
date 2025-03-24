@@ -1,0 +1,14 @@
+{
+    "caption": "Push to Url",
+    "fields": {
+        "ACj": {
+            "caption": "presigned_urls",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "long_text": false,
+            "name": "presigned_urls",
+            "rank": 0,
+            "value": "text"
+        }
+    }
+}

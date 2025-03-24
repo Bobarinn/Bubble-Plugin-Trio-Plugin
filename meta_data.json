@@ -1,0 +1,11 @@
+{
+    "categories": {
+        "0": "media"
+    },
+    "data_tracked": false,
+    "description": "A personal Bubble.io plugin developed for my personal use platform that enables direct document uploads to specific AWS S3 buckets, bypassing Bubble's standard storage limitations. The plugin also includes custom elements for generating QR code images, enhancing user interaction with the platform. ",
+    "image": "//meta-q.cdn.bubble.io/f1742775986733x879628669362342900/XOPHIE%20LOGO.png",
+    "license": "open_source",
+    "name": "Trio Plugin",
+    "sa_node_version": 18
+}

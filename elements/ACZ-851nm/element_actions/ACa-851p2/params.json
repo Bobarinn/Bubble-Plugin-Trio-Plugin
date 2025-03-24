@@ -1,0 +1,35 @@
+{
+    "caption": "Upload",
+    "fields": {
+        "ACb": {
+            "caption": "file_types",
+            "default_val": "pdf,doc,docx,jpg,jpeg,png",
+            "editor": "DynamicValue",
+            "name": "file_types",
+            "rank": 0,
+            "value": "text"
+        },
+        "ACc": {
+            "caption": "max_file_size",
+            "editor": "DynamicValue",
+            "name": "max_file_size",
+            "rank": 1,
+            "value": "text"
+        },
+        "ACd": {
+            "caption": "base_url",
+            "editor": "DynamicValue",
+            "name": "base_url",
+            "rank": 2,
+            "value": "text"
+        },
+        "ACe": {
+            "caption": "auth_token",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "auth_token",
+            "rank": 3,
+            "value": "text"
+        }
+    }
+}
